@@ -27,7 +27,7 @@ This R Shiny mini-app reads the data from the `data` directory. If you want to w
 You can clone this repository by using the command:
 
 ```clone
-git clone https://github.com/aridhia/demo-survival-analysis
+git clone https://github.com/Aridhia-Open-Source/shiny-demo-survival-analysis
 ```
 Open the .Rproj file in RStudio, source the script `dependencies.R` to install all the packages required by the app, and run `runApp()` to start the app.
 
