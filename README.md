@@ -1,6 +1,6 @@
 # Survival Analysis 
 
-This Shiny App was developed to easily visualize a survival analysis. 
+This R web app was developed to easily visualize a survival analysis. 
 
 **Survival analyses** use a set of statistical approaches to investigate the time it takes for an event of interest to occur. The event of interest can be recurrence, remission, progression or death, among others. In Survival studio, two or more groups are compared with respect to the time to this specific event. 
 In some cases, the event may not be observed in some individuals within the study time period, then, this observation would be “censored” and survival time would be the last known time the patient or participant was known  not to suffer the event. 
@@ -20,7 +20,7 @@ The app has four tabs:
 3. Kaplan-Meier Plot
 4. Cox Model
 
-This R Shiny mini-app reads the data from the `data` directory. If you want to work with your own data, just add the desired CSV file to the `data` folder and choose it in the app.
+This R web app reads the data from the `data` directory. If you want to work with your own data, just add the desired CSV file to the `data` folder and choose it in the app.
 
 ### Checkout and run
 
@@ -34,7 +34,7 @@ Open the .Rproj file in RStudio, source the script `dependencies.R` to install a
 ### Deploying to the workspace
 
 1. Download this GitHub repo as a .zip file.
-2. Create a new blank Shiny app in your workspace called "survival-analysis".
+2. Create a new blank R web app in your workspace called "survival-analysis".
 3. Navigate to the `survival-analysis` folder under `files`.
 4. Delete the `app.R` file from the `survival-analysis` folder. Make sure you keep the `.version` file!
 5. Upload the .zip file to the `survival-analysis` folder.
